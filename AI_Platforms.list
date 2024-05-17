@@ -3,18 +3,18 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-04-29 13:37:09
 # DOMAIN: 4
-# DOMAIN-SUFFIX: 6
+# host-suffix: 6
 # TOTAL: 10
-# DOMAIN,ai.google.dev
-DOMAIN,alkalimakersuite-pa.clients6.google.com
-DOMAIN,generativelanguage.googleapis.com
-DOMAIN,makersuite.google.com
-DOMAIN-SUFFIX,bard.google.com
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+host,ai.google.dev
+host,alkalimakersuite-pa.clients6.google.com
+host,generativelanguage.googleapis.com
+host,makersuite.google.com
+host-suffix,bard.google.com
+host-suffix,deepmind.com
+host-suffix,deepmind.google
+host-suffix,gemini.google.com
+host-suffix,generativeai.google
+host-suffix,proactivebackend-pa.googleapis.com
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
@@ -22,34 +22,34 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 # UPDATED: 2024-04-29 13:37:07
 # DOMAIN: 2
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 21
+# host-suffix: 21
 # IP-ASN: 1
 # IP-CIDR: 2
 # TOTAL: 27
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,static.cloudflareinsights.com
-DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,algolia.net
-DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,segment.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-KEYWORD,openai
+host,browser-intake-datadoghq.com
+host,static.cloudflareinsights.com
+host-suffix,ai.com
+host-suffix,algolia.net
+host-suffix,api.statsig.com
+host-suffix,auth0.com
+host-suffix,chatgpt.com
+host-suffix,chatgpt.livekit.cloud
+host-suffix,client-api.arkoselabs.com
+host-suffix,events.statsigapi.net
+host-suffix,featuregates.org
+host-suffix,host.livekit.cloud
+host-suffix,identrust.com
+host-suffix,intercom.io
+host-suffix,intercomcdn.com
+host-suffix,launchdarkly.com
+host-suffix,oaistatic.com
+host-suffix,oaiusercontent.com
+host-suffix,observeit.net
+host-suffix,segment.io
+host-suffix,sentry.io
+host-suffix,stripe.com
+host-suffix,turn.livekit.cloud
+host-keyword,openai
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
@@ -59,8 +59,8 @@ IP-ASN,20473,no-resolve
 # REPO: https://github.com/blackmatrix7/ios_rule_script
 # UPDATED: 2024-04-29 13:37:08
 # DOMAIN: 1
-# DOMAIN-SUFFIX: 2
+# host-suffix: 2
 # TOTAL: 3
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN-SUFFIX,claude.ai
+host,cdn.usefathom.com
+host-suffix,anthropic.com
+host-suffix,claude.ai
