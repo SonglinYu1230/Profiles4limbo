@@ -5,16 +5,16 @@
 # DOMAIN: 4
 # host-suffix: 6
 # TOTAL: 10
-host,ai.google.dev
-host,alkalimakersuite-pa.clients6.google.com
-host,generativelanguage.googleapis.com
-host,makersuite.google.com
-host-suffix,bard.google.com
-host-suffix,deepmind.com
-host-suffix,deepmind.google
-host-suffix,gemini.google.com
-host-suffix,generativeai.google
-host-suffix,proactivebackend-pa.googleapis.com
+host,ai.google.dev,OpenAI
+host,alkalimakersuite-pa.clients6.google.com,OpenAI
+host,generativelanguage.googleapis.com,OpenAI
+host,makersuite.google.com,OpenAI
+host-suffix,bard.google.com,OpenAI
+host-suffix,deepmind.com,OpenAI
+host-suffix,deepmind.google,OpenAI
+host-suffix,gemini.google.com,OpenAI
+host-suffix,generativeai.google,OpenAI
+host-suffix,proactivebackend-pa.googleapis.com,OpenAI
 
 # NAME: OpenAI
 # AUTHOR: blackmatrix7
@@ -26,30 +26,30 @@ host-suffix,proactivebackend-pa.googleapis.com
 # IP-ASN: 1
 # IP-CIDR: 2
 # TOTAL: 27
-host,browser-intake-datadoghq.com
-host,static.cloudflareinsights.com
-host-suffix,ai.com
-host-suffix,algolia.net
-host-suffix,api.statsig.com
-host-suffix,auth0.com
-host-suffix,chatgpt.com
-host-suffix,chatgpt.livekit.cloud
-host-suffix,client-api.arkoselabs.com
-host-suffix,events.statsigapi.net
-host-suffix,featuregates.org
-host-suffix,host.livekit.cloud
-host-suffix,identrust.com
-host-suffix,intercom.io
-host-suffix,intercomcdn.com
-host-suffix,launchdarkly.com
-host-suffix,oaistatic.com
-host-suffix,oaiusercontent.com
-host-suffix,observeit.net
-host-suffix,segment.io
-host-suffix,sentry.io
-host-suffix,stripe.com
-host-suffix,turn.livekit.cloud
-host-keyword,openai
+host,browser-intake-datadoghq.com,OpenAI
+host,static.cloudflareinsights.com,OpenAI
+host-suffix,ai.com,OpenAI
+host-suffix,algolia.net,OpenAI
+host-suffix,api.statsig.com,OpenAI
+host-suffix,auth0.com,OpenAI
+host-suffix,chatgpt.com,OpenAI
+host-suffix,chatgpt.livekit.cloud,OpenAI
+host-suffix,client-api.arkoselabs.com,OpenAI
+host-suffix,events.statsigapi.net,OpenAI
+host-suffix,featuregates.org,OpenAI
+host-suffix,host.livekit.cloud,OpenAI
+host-suffix,identrust.com,OpenAI
+host-suffix,intercom.io,OpenAI
+host-suffix,intercomcdn.com,OpenAI
+host-suffix,launchdarkly.com,OpenAI
+host-suffix,oaistatic.com,OpenAI
+host-suffix,oaiusercontent.com,OpenAI
+host-suffix,observeit.net,OpenAI
+host-suffix,segment.io,OpenAI
+host-suffix,sentry.io,OpenAI
+host-suffix,stripe.com,OpenAI
+host-suffix,turn.livekit.cloud,OpenAI
+host-keyword,openai,OpenAI
 IP-CIDR,24.199.123.28/32,no-resolve
 IP-CIDR,64.23.132.171/32,no-resolve
 IP-ASN,20473,no-resolve
@@ -61,6 +61,6 @@ IP-ASN,20473,no-resolve
 # DOMAIN: 1
 # host-suffix: 2
 # TOTAL: 3
-host,cdn.usefathom.com
-host-suffix,anthropic.com
-host-suffix,claude.ai
+host,cdn.usefathom.com,OpenAI
+host-suffix,anthropic.com,OpenAI
+host-suffix,claude.ai,OpenAI
